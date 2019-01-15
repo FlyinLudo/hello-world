@@ -1,0 +1,31 @@
+<html xmlns:tomboy="http://beatniksoftware.com/tomboy" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size"><head><META http-equiv="Content-Type" content="text/html; charset=utf-8"><title>Apache</title><style type="text/css">
+        
+	body {  }
+	h1 { font-size: xx-large;
+     	     font-weight: bold;
+     	     border-bottom: 1px solid black; }
+	div.note {
+		   position: relative;
+		   display: block;
+		   padding: 5pt;
+		   margin: 5pt; 
+		   white-space: -moz-pre-wrap; /* Mozilla */
+ 	      	   white-space: -pre-wrap;     /* Opera 4 - 6 */
+ 	      	   white-space: -o-pre-wrap;   /* Opera 7 */
+ 	      	   white-space: pre-wrap;      /* CSS3 */
+ 	      	   word-wrap: break-word;      /* IE 5.5+ */ }
+	</style></head><body><div class="note" id="Apache"><a name="apache"></a><h1>Apache</h1>
+
+Démarrer | Arrêter | Relancer | Status
+	$ <b>sudo service apache2 start | stop | restart | status </b>
+
+
+Démarrage <b>automatique</b>
+	$ <b>sudo update-rc.d apache2 remove</b>
+
+SIte par défaut : <a style="color:#3465A4" href="/usr/share/apache2/default-site/">/usr/share/apache2/default-site/</a>
+
+<a style="color:#204A87" href="../linux/Configuration.html">Configuration</a> : <a style="color:#3465A4" href="/etc/apache2/apache2.conf">/etc/apache2/apache2.conf</a>
+Permet de configurer le répertoire local ou poser le site (<a style="color:#3465A4" href="/var/www/html">/var/www/html</a>)
+
+<span style="font-size:small">Note from 2014-07-29 12:24:39.235</span></div></body></html>
