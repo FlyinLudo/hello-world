@@ -2,10 +2,5 @@
 Prise en main GitHub
 
 A ne pas confondre avec le fichier de la banche master
-
-2° enrg
-=======
-Branche FlyinLudo-patch-1
-=======
-master branch
+master readme-edits
 
